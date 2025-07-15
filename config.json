@@ -1,0 +1,7 @@
+{
+  "memtable_max_size": 1000,
+  "block_size_kb": 4,
+  "cache_size": 128,
+  "summary_step": 5,
+  "memtable_type": "hashmap"
+}
