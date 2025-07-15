@@ -65,3 +65,7 @@ func (m *Memtable) GetAll() map[string]*types.Entry {
 	defer m.mutex.RUnlock()
 	return m.data
 }
+
+func (m *Memtable) Size() int {
+	return m.size
+}
